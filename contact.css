@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(198, 195, 195);
+    /* width: 434px; */
+    font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.3s ease-in;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 80vw;
+}
+.container{
+    display: flex;
+}
+.button{
+    margin: 2.2em;
+    font-size: 16px;
+}
+.button button{
+padding: 9px 14px;
+border-radius: 22px;
+color: white;
+font-weight: bold;
+font-size: 21px;
+margin: 3px 3px;
+cursor: pointer;
+background-color: deepskyblue;
+}
+
+.button button:hover{
+  background-color: white;
+  color: deepskyblue;
+}
+.contactform{
+    padding: 0 34px;
+    margin: 0 88px;
+    padding-top: 144px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contactform form{
+    margin: 0 40PX;
+}
+.contactform h1{
+    font-family: 'source code pro', monospace;
+    /* text-align: center; */
+    /* padding: 12px 0; */
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contactform form div input{
+    padding: 3px;
+    /* width: 16vw; */
+    border-radius: 5px;
+    margin: 6px 0;
+     
+}
+#emailHelp{
+    font-size: 17px;
+    color: blue;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;   	 
+}
+
+
+.btn {
+    padding: 9px 14px;
+border-radius: 22px;
+color: white;
+font-weight: bold;
+font-size: 21px;
+margin: 0 3px;
+cursor: pointer;
+background-color: deepskyblue;
+}
+.btn:hover{
+    background-color: white;
+  color: deepskyblue;
+}
+.btn-sm{
+  width: 22%;;
+}
+.font-contact{
+ font-size:xx-large;
+ align-items: center;
+
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+@media(max-width: 1615px){
+    *{
+    /* background-color: aqua; */
+    }
+    /* .devpic{
+        display: none;
+    } */
+    /* .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+}
+.humburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+}
+.cross{
+    margin-left: -25px;
+    /* margin-top: 10px; */
+
+}
